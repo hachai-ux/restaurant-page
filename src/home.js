@@ -1,10 +1,12 @@
+import image from "../src/spicedhoneyroastduckasiangreenswhiterice-0006.jpeg"
+
 function home() {
     const element = document.querySelector('div#content');
     const img = document.createElement('img');
     const h1 = document.createElement('h1');
     const p = document.createElement('p');
 
-    img.setAttribute('src', "../src/spicedhoneyroastduckasiangreenswhiterice-0006.jpeg");
+    img.setAttribute('src', image);
     h1.textContent = "Casa Restaurant";
     p.textContent = "World renowned restaurant in the city of Sofia.";
  

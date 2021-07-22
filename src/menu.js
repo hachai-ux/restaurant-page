@@ -1,3 +1,5 @@
+import image from "../src/vegetarian-teriyaki-stir-fry-with-noodles-recipe-1.jpeg"
+
 function menu() {
     const element = document.querySelector('div#content');
     const dish_one = document.createElement('div');
@@ -7,7 +9,7 @@ function menu() {
     const price_one = document.createElement('p');
     const p_one = document.createElement('p');
 
-    img_one.setAttribute('src', "../src/vegetarian-teriyaki-stir-fry-with-noodles-recipe-1.jpeg");
+    img_one.setAttribute('src', image);
     h1_one.textContent = "Vegan Teriyaki";
     price_one.textContent = "5€";
     p_one.textContent = "A very delicious noodle dish";
